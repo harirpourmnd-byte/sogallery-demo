@@ -1,0 +1,52 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../author"
+		},
+		{
+			"path": "../cart"
+		},
+		{
+			"path": "../category"
+		},
+		{
+			"path": "../checkout"
+		},
+		{
+			"path": "../hello-world"
+		},
+		{
+			"path": "../my-account"
+		},
+		{
+			"path": "../product"
+		},
+		{
+			"path": "../product-category"
+		},
+		{
+			"path": "../shop"
+		},
+		{
+			"path": "../student-artworks"
+		},
+		{
+			"path": "../watercolor-course"
+		},
+		{
+			"path": "../watercolor-instructor"
+		},
+		{
+			"path": "../wp-content"
+		},
+		{
+			"path": "../wp-includes"
+		},
+		{
+			"path": "../مقالات"
+		}
+	]
+}

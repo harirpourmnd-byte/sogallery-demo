@@ -1,0 +1,32 @@
+var I360_PANEL = 'noPanel';
+// Must stay "client": scripts/update-ui-app.sh leaves out the UI's admin-only chunks
+var i360role = "client";
+var I360_ALLOWED_ITEMS = {
+    malware: {
+        files: {
+            hideFilters: true,
+            hideCheckboxes: true,
+            allowedActions: ['viewFile']
+        },
+        'on-demand-scan': {
+            hideFilters: true,
+            allowedActions: [],
+        },
+    },
+    'proactive-defense': {
+        events: {
+            hideFilters: true,
+            hideCheckboxes: true,
+            allowedActions: ['viewFile', 'viewDetails'],
+        },
+        'ignore-list': {
+            hideFilters: true,
+            hideCheckboxes: true,
+            allowedActions: ['viewFile'],
+        },
+    },
+    'cms-protection': {
+        incidents: {},
+        'disabled-rules': {},
+    },
+};
